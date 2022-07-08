@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'event_interface.dart';
 
-class Event implements EventInterface {
+class CrmEventType implements EventInterface {
   final DateTime date;
   final String? title;
   final String? description;
@@ -11,7 +11,8 @@ class Event implements EventInterface {
   final Widget? dot;
   final int? id;
   final dynamic data;
-  Event({
+
+  CrmEventType({
     this.id,
     required this.date,
     this.title,
